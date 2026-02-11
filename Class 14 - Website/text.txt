@@ -1,0 +1,34 @@
+Company
+Shop 
+Institute
+
+
+Home (banner ,about , services ,products ,contact)
+about
+Services / products / courses 
+Contact us 
+
+
+Header (logo , navigation link , icon )
+-content
+Footer (logo , about , navigation , social link )
+
+header
+footer
+section 
+aside
+nav
+div
+
+articles
+
+
+background-image
+background-size
+background-position
+background-attachment
+background-repeat
+
+
+border:width style color;
+border-radius

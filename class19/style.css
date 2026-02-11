@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width:100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 20px;
+    border: 10px double orange;
+   animation-name: RotateBox;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear;
+   /* ease */
+}
+
+@keyframes RotateBox{
+    from{
+        background-color: palevioletred;
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: royalblue;
+        transform: rotate(360deg);
+    }
+}
+.flexBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+
+.fa-cart-shopping{
+    font-size: 20px;
+    color: brown;
+}
+
+
+.fa-cart-shopping:hover{
+    color:black ;
+}
+
+
+p{
+   font-family: "Jost", sans-serif;
+}
+
+/* .flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+} */
+/* display flex 
+position  */

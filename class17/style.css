@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#myheader{
+    background-color: black;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    /* bottom: 0; */
+}
+.navbar{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+.navbar li{
+    transition: 1s;
+}
+.navbar li:hover{
+    color: chocolate;
+}
+
+.sec1{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec1 h1{
+    font-size: 70px;
+}
+.sec1 p{
+    font-size: 20px;
+}
+
+.floatingIcon{
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 2%;
+}
+.floatingIcon img{
+    width: 100%;
+}
+
+
+.content{
+    width: 400px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 20px groove red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* translate */
+}
+.sec2{
+    position: relative;
+}
+
+
+.rotate{
+    width: 100px;
+    height: 100px;
+    margin: 200px 100px;
+    background-color: black;
+    transition: 1s;
+}
+.rotate:hover{
+    transform: rotate(360deg);
+}
+
+.scale{
+     width: 100px;
+    height: 100px;
+    margin: 200px 100px;
+    background-color: black;
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.5);
+    /* 0 to 2 */
+    /* width: 120px;
+    height: 120px; */
+}
+
+.translate{
+      width: 100px;
+    height: 100px;
+    margin: 200px 100px;
+    background-color: black;
+    transition: 1s;
+}
+.translate:hover{
+    transform: translateY(300px);
+}

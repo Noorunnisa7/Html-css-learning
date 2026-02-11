@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="thankyou.html">
+        <h1>Add User Data</h1>
+        <label>
+            Enter your Name *
+            <input type="text" placeholder="Your Full Name" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            <!-- @gmail.com -->
+            Enter Your Email *
+            <input type="email" placeholder="Your Email Address" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Enter your Number (optional)
+            <input type="number">
+        </label>
+        <br>
+        <br>
+        <label>
+            Enter your Password *
+            <input type="password" required>
+        </label>
+        <br>
+        <br>
+        <!-- Radio Checkbox -->
+        <!-- Use Name attr for group input -->
+        <label>
+            Select Gender
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female
+        </label>
+        <br>
+        <br>
+        <label>
+            Select your Skills
+            <input type="checkbox" name="skill">Ms Office
+            <input type="checkbox" name="skill">HTML
+            <input type="checkbox" name="skill">CSS
+            <input type="checkbox" name="skill">JS
+        </label>
+        <br><br>
+
+        <label for="">
+            Enter your Message (optional)
+            <br>
+            <textarea rows="7" cols="50"></textarea>
+        </label>
+        <br>
+        <br>
+        <input type="text" value="Aptech Learning" readonly>
+        <br>
+        <br>
+        <label>Select your Country*</label>
+        <select required>
+            <option value="">Select your Country</option>
+            <option value="pak">Pakistan</option>
+            <option value="iraq">Iraq</option>
+            <option value="iran">Iran</option>
+            <option value="china">China</option>
+            <option value="SA">Saudia Arab</option>
+        </select>
+        <br>
+        <br>
+        <input type="color">
+        <br>
+        <br>
+        <button>Send</button>
+    </form>
+
+</body>
+
+</html>

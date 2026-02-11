@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.txtBox{
+    border: none;
+    border-bottom: 2px solid black;
+    color: blueviolet;
+}
+
+.txtBox:focus{
+    outline: none;
+}
+
+.txtBox::placeholder{
+    color: brown;
+}
+
+.heading{
+    color: brown;
+}
+.heading::first-letter{
+    color: chocolate;
+}
+
+.paragraph::first-line{
+    font-size: 30px;
+    color: rgb(244, 139, 12);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.list h3{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.list h3:first-child{
+    background-color: brown;
+}
+.list h3:last-child{
+    background-color: yellow;
+}
+.list h3:nth-child(4){
+    background-color: pink;
+}
+.list h3:nth-child(7){
+    background-color: red;
+}
+.list h3:nth-child(5){
+    background-color: blue;
+}
+.list h3:nth-child(10){
+    background-color: pink;
+}
+.list h3:nth-child(12){
+    background-color: orange;
+}
+.list h3:nth-child(16){
+    background-color: green;
+}
+.list h3:nth-child(6){
+    background-color: purple;
+}
+
+.beforeOrAfter::before{
+    content: "Hello!";
+}
+.beforeOrAfter::after{
+    content: "User:)";
+}
+
+.ImgFilter{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.ImgFilter img{
+    width: 100%;
+    height: 100%;
+}
+.ImgFilter::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 100%;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.ImgFilter:hover::before{
+    bottom: 0;
+}
+.myheader{
+    background-color: aquamarine;
+    padding: 20px 50px;
+}
+.myheader ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.myheader ul li::marker{
+    content: "🌟";
+}
+.myheader ul li::after{
+    position: absolute;
+    top: 90%;
+    left: 100%;
+    bottom: 0;
+    right: 100%;
+    background-color: black;
+    content: "";
+    transition: 0.3s;
+}
+.myheader ul li:hover::after{
+    right: 0;
+    left: 0;
+}
+.myheader ul li{
+    position: relative;
+}
+
+
+.zoom{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+.zoom img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.zoom img:hover{
+    transform: scale(1.2);
+}

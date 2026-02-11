@@ -1,0 +1,15 @@
+Transition and transfrom
+
+transition:seconds;
+
+transfrom
+-rotate (45deg)
+-skew   3D (deg) X-axis,Y-axis
+-scale  zoom  (value 1 - 2)
+-translate  X-axis , Y- axis (px / %)
+
+AVIF
+png 
+jpg 
+jgeg 
+jfif 200px

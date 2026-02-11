@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 10px double palevioletred;
+    border-radius: 20px 50px;
+}
+
+.box:hover{
+    background-color: chocolate;
+    border-color: black;
+    border-radius: 50px 20px;
+}
+
+#btn{
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 2px red;
+}
+#btn:hover{
+    border: 2px dotted red;
+    border-radius: 50px;
+    box-shadow: -5px -5px 2px red;
+}
+
+/* box-shadow:x-axis y-axis spread color; */
+
+.btn{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow:0px 0px 20px black;
+}
+
+h1{
+    text-shadow:10px 10px 10px grey;
+}
+
+.gradientLinear{
+    background: #07161f;
+background: linear-gradient(270deg, rgba(7, 22, 31, 1) 0%, rgba(11, 93, 46, 1) 50%, rgba(255, 89, 0, 1) 71%, rgba(125, 0, 35, 1) 100%);
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.gradientRadial{
+    background:radial-gradient(purple , orange);
+    margin: 50px;
+     width: 100px;
+    height: 100px;
+}

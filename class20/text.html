@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Promise Example</h2>
+<p id="demo"></p>
+
+<script>
+
+    let promise =  new Promise((resolve, reject) => {
+    let inStock = false; // true / false try karo
+
+    setTimeout(() => {
+      if (inStock) {
+        resolve("✅ Item delivered");
+      } else {
+        reject("❌ Item out of stock");
+      }
+    }, 2000);
+  });
+function orderItem() {
+  return promise;
+}
+
+orderItem()
+  .then(result => {
+    document.getElementById("demo").innerHTML = result;
+  })
+  .catch(error => {
+    document.getElementById("demo").innerHTML = error;
+  });
+
+
+
+
+  console.log("hello")
+  console.log("hello1")
+  console.log("hello2")
+  setTimeout(()=>{
+  console.log("hello6")
+
+  },3000)
+  console.log("hello3")
+  console.log("hello4")
+  setTimeout(()=>{
+  console.log("hello7")
+
+  },1000)
+  console.log("hello5")
+
+
+let hello = () => {
+  alert("nisa")
+}
+
+hello();
+
+
+</script>
+
+</body>
+</html>

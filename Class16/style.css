@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rotate{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 100px;
+    transition: 5s; 
+    /* transform: rotate(120deg);       */
+}
+.rotate:hover{
+    background-color: blueviolet;
+    transform: rotate(360deg);
+}
+.skew{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 50px 100px;
+    /* transform: skew(30deg); */
+    /* transform: skewY(40deg); */
+    transition: 0.5s;
+}
+.skew:hover{
+    transform: skew(30deg);
+}
+.scale{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 50px 100px;
+    transition: 0.5s;
+}
+.scale:hover{
+    /* transform: scale(1.2); */
+    /* transform: scaleY(1.2); */
+    transform: scale(1.2 , 1.5);
+}
+
+.zoomBox{
+    width: 40%;
+    overflow: hidden;
+}
+
+.zoomBox:hover .zoomImg{
+    transform: scale(2);
+}
+.zoomImg{
+    transition: 0.5s;
+}
